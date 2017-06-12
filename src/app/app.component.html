@@ -1,3 +1,6 @@
 <h1>
-  {{title}}
+  Electron
 </h1>
+<ul>
+  <li *ngFor="let dir of data">{{dir}}: {{events[dir] || 'unchanged'}}</li>
+</ul>
